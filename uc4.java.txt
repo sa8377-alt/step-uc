@@ -1,0 +1,23 @@
+public class UC4Banner {
+
+    public static void main(String[] args) {
+        displayBanner();
+    }
+
+    public static void displayBanner() {
+
+        // Creating banner using String array
+        String[] banner = {
+                String.join("", "***************************************"),
+                String.join("", "*                                     *"),
+                String.join("", "*        WELCOME TO UC4 SYSTEM        *"),
+                String.join("", "*                                     *"),
+                String.join("", "***************************************")
+        };
+
+        // Printing banner using enhanced for-loop
+        for (String line : banner) {
+            System.out.println(line);
+        }
+    }
+	}
