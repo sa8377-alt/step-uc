@@ -1,0 +1,25 @@
+public class UC5Banner {
+
+    public static void main(String[] args) {
+        displayBanner();
+    }
+
+    public static void displayBanner() {
+
+        // Combined declaration + initialization using String.join()
+        String[] banner = {
+                String.join("", "*******************************************"),
+                String.join("", "*                                         *"),
+                String.join("", "*        WELCOME TO UC5 APPLICATION       *"),
+                String.join("", "*                                         *"),
+                String.join("", "*      Optimized Banner Rendering         *"),
+                String.join("", "*                                         *"),
+                String.join("", "*******************************************")
+        };
+
+        // Enhanced for-loop for clean traversal
+        for (String line : banner) {
+            System.out.println(line);
+        }
+    }
+	}
